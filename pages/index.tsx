@@ -13,15 +13,15 @@ import WindowManager from '@/components/System/WindowManager/WindowManager';
 export default function HomePage(): ReactElement {
   return (
     <>
-      <Metadata />
+      {/* <Metadata /> */}
       <SessionProvider>
         <ProcessProvider>
           <FileProvider>
-            <Desktop>
-              <FileManager path="/desktop" render={IconsView} />
+            {/* <Desktop> */}
+              {/* <FileManager path="/desktop" render={IconsView} /> */}
               <WindowManager />
-              <Taskbar />
-            </Desktop>
+              {/* <Taskbar /> */}
+            {/* </Desktop> */}
           </FileProvider>
         </ProcessProvider>
       </SessionProvider>

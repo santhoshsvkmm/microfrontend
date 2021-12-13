@@ -1,8 +1,8 @@
 {
-  "name": "x",
-  "description": "Desktop environment in the browser.",
+  "name": "eoxpoc",
+  "description": "OS in Browser",
   "version": "1.0.0",
-  "author": "Dustin Brett",
+  "author": "Santhosh Sivakumar",
   "license": "MIT",
   "scripts": {
     "build": "next build",
